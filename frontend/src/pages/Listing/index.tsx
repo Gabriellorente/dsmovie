@@ -1,6 +1,5 @@
-import MovieStars from "components/MovieStars";
 import Pagination from "components/Pagination";
-
+import MovieStars from "components/MovieStars";
 function Listing() {
 
     return (
