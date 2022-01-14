@@ -1,7 +1,8 @@
-import { ReactComponent as Arrow } from 'assers/img/arrow.svg';
+import { ReactComponent as Arrow } from 'assets/img/arrow.svg';
 import './styles.css';
 
-function MovieStars() {
+function Pagination() {
+
 
     return (
         <div className="dsmovie-pagination-container">
@@ -18,4 +19,4 @@ function MovieStars() {
     );
 }
 
-export default MovieStars;
+export default Pagination;
