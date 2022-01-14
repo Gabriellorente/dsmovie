@@ -1,19 +1,8 @@
-
-import MovieStars from "../../components/Navbar/MovieStars";
-import Pagination from "../../components/Navbar/Pagination";
-
-function Listing(): JSX.Element {
+function Listing() {
 
     return (
-        <>
-        
-        <Pagination />
-
-        <MovieStars />
-        
-        </>
-       
-    );
+        <h1>Página de listagem</h1>
+    )
 }
 
 export default Listing;
